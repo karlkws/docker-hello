@@ -31,6 +31,7 @@ change into the directory:
 `docker run -d -p 8080:8080 myhello`
 
 -d = -demon, run in background
+
 -p = -port
 
 If you experience an error message, you may have another (the previous?) container running on the same port. In this case use this command to kill all running containers:
