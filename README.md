@@ -34,6 +34,10 @@ change into the directory:
 
 -p = -port
 
+# Check container:
+
+`docker ps`
+
 If you experience an error message, you may have another (the previous?) container running on the same port. In this case use this command to kill all running containers:
 
 `docker kill $(docker ps -q)`
